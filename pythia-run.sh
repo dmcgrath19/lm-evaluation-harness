@@ -11,7 +11,7 @@
 source /exports/eddie/scratch/s2558433/miniconda3/etc/profile.d/conda.sh
 
 cd /exports/eddie/scratch/s2558433/
-conda create -n eval python=3.9
+#conda create -n eval python=3.9
 conda activate eval
 
 cd lm-evaluation-harness
