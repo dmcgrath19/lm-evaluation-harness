@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #$ -N hellaswag-pythia-160m
-#$ -o /exports/eddie/scratch/s2558433/pythia-160m_$JOB_ID.log
-#$ -e /exports/eddie/scratch/s2558433/pythia-160m_$JOB_ID.err
+#$ -o /exports/eddie/scratch/s2558433/eval-p160m_$JOB_ID.log
+#$ -e /exports/eddie/scratch/s2558433/eval-p160m_$JOB_ID.err
 #$ -cwd
 #$ -pe sharedmem 16
 #$ -l h_vmem=4G
